@@ -1,0 +1,22 @@
+{
+  "name": "BrowserSyncDemo",
+  "version": "0.0.0",
+  "description": "Responsive Multi-Column Form\r =========\r A responsive multi-column form with example media queries for a flexible layout.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js 8000",
+    "browser-sync": "browser-sync start --files='pub/**/*.*' --proxy localhost:8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "David Rogers <hello@al-the-x.me>",
+  "license": "GPL",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "lodash": "^3.10.0"
+  }
+}
